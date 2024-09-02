@@ -14,8 +14,9 @@
 6. Copy credential to .env and replace to line 49-53
 7. Run ```php artisan migrate:fresh --seed```
 8. Run ```php artisan shield:install --fresh``` and follow the instruction, input user ID ```1``` in prompt
-9. Run ```php artisan serve```
-10. Open ```localhost:8000/admin```
-11. Login using:
+9. Run ```php artisan storage:link```
+10. Run ```php artisan serve```
+11. Open ```localhost:8000/admin```
+12. Login using:
     - email: superadmin@mail.test
     - password: 123qweasd
