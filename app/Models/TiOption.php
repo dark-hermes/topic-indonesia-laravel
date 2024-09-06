@@ -12,6 +12,7 @@ class TiOption extends Model
 
     protected $fillable = [
         'key',
+        'type',
         'value'
     ];
 }

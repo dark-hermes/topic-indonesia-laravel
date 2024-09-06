@@ -40,6 +40,10 @@ class OptionSeeder extends Seeder
             [
                 'key' => 'phone2',
                 'value' => '(+62)-857-7908-6748'
+            ],
+            [
+                'key' => 'instagram',
+                'value' => 'topic.indonesia',
             ]
         ];
 
